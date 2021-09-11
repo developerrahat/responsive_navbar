@@ -1,0 +1,43 @@
+a{
+    text-decoration: none;
+}
+.header{
+    padding: 20px 0;
+    background: #1d0e04;
+    z-index: 99999;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a h3{
+    font-size:26px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.header-nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 0;  
+}
+.header-nav ul li a{
+   margin: 0 15px; 
+   color: white !important;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+.header-nav ul li a:hover{
+   color:#ef6603 !important ;
+}
+
+.btn-bar , .close{
+    cursor: pointer;
+    display:none ;
+    font-size:30px;
+    background: transparent;
+    border: none;
+    color: white;
+}
